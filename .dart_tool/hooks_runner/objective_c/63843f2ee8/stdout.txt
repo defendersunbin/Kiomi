@@ -1,0 +1,55 @@
+Running `(cd /Users/shinsunbin/.pub-cache/hosted/pub.dev/objective_c-9.3.0/; ANDROID_HOME=/Users/shinsunbin/Library/Android/sdk TMPDIR=/var/folders/bl/hr9cgjgj469cbbnw2zjqpk980000gn/T/ PATH=/Applications/Xcode.app/Contents/SharedFrameworks/SwiftBuild.framework/Versions/A/PlugIns/SWBBuildService.bundle/Contents/PlugIns/SWBUniversalPlatformPlugin.bundle/Contents/Frameworks/SWBUniversalPlatform.framework/Resources:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Users/shinsunbin/.antigravity/antigravity/bin:/opt/homebrew/bin:/Users/shinsunbin/.brew/bin:/Users/shinsunbin/miniforge3/bin:/Users/shinsunbin/.nvm/versions/node/v17.6.0/bin:/Users/shinsunbin/.rbenv/shims:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pkg/env/active/bin:/opt/pmk/env/global/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/usr/local/share/dotnet:/usr/local/mysql-8.0.30-macos12-arm64/bin:/Users/shinsunbin/Documents/flutter/bin:/Users/shinsunbin/Library/Java/JavaVirtualMachines/azul-17.0.7/Contents/Home/bin HOME=/Users/shinsunbin /Users/shinsunbin/Documents/flutter/bin/cache/dart-sdk/bin/dart --packages=/Users/shinsunbin/Documents/kiomi/.dart_tool/package_config.json /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/objective_c/63843f2ee8/hook.dill --config=/Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/objective_c/63843f2ee8/input.json )`.
+INFO: 2026-04-14 18:26:50.277428: Running `/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --version`.
+
+INFO: 2026-04-14 18:26:50.415391: Running `/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --version`.
+
+INFO: 2026-04-14 18:26:50.440844: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -target arm64-apple-ios -mios-version-min=13 -c /Users/shinsunbin/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/include/dart_api_dl.c -fpic -I src -o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-04-14 18:26:50.441604: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -target arm64-apple-ios -mios-version-min=13 -c /Users/shinsunbin/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/objective_c.c -fpic -I src -o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c.c.o
+
+INFO: 2026-04-14 18:26:50.442173: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -target arm64-apple-ios -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/shinsunbin/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/input_stream_adapter.m -fpic -I src -o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-04-14 18:26:50.442581: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -target arm64-apple-ios -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/shinsunbin/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/objective_c.m -fpic -I src -o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c.m.o
+INFO: 2026-04-14 18:26:50.442940: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -target arm64-apple-ios -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/shinsunbin/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/observer.m -fpic -I src -o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/observer.m.o
+INFO: 2026-04-14 18:26:50.443123: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -target arm64-apple-ios -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/shinsunbin/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/ns_number.m -fpic -I src -o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/ns_number.m.o
+INFO: 2026-04-14 18:26:50.443240: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -target arm64-apple-ios -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/shinsunbin/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/protocol.m -fpic -I src -o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/protocol.m.o
+INFO: 2026-04-14 18:26:50.443352: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -target arm64-apple-ios -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/shinsunbin/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/objective_c_bindings_generated.m -fpic -I src -o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-04-14 18:26:50.624244: 
+INFO: 2026-04-14 18:26:50.624345: 
+INFO: 2026-04-14 18:26:50.624372: Generated /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c.c.o
+INFO: 2026-04-14 18:26:50.624509: 
+INFO: 2026-04-14 18:26:50.624521: 
+INFO: 2026-04-14 18:26:50.624530: Generated /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-04-14 18:26:50.626656: 
+INFO: 2026-04-14 18:26:50.627333: 
+INFO: 2026-04-14 18:26:50.627348: Generated /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/observer.m.o
+
+INFO: 2026-04-14 18:26:50.631687: 
+INFO: 2026-04-14 18:26:50.631847: 
+INFO: 2026-04-14 18:26:50.631861: Generated /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/protocol.m.o
+
+INFO: 2026-04-14 18:26:50.793712: 
+INFO: 2026-04-14 18:26:50.793799: 
+INFO: 2026-04-14 18:26:50.793832: Generated /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/ns_number.m.o
+
+INFO: 2026-04-14 18:26:50.804450: 
+INFO: 2026-04-14 18:26:50.804559: 
+INFO: 2026-04-14 18:26:50.804592: Generated /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c.m.o
+
+INFO: 2026-04-14 18:26:50.806060: 
+INFO: 2026-04-14 18:26:50.806087: 
+INFO: 2026-04-14 18:26:50.806097: Generated /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-04-14 18:26:50.822818: 
+INFO: 2026-04-14 18:26:50.822859: 
+INFO: 2026-04-14 18:26:50.822868: Generated /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-04-14 18:26:50.823224: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -shared -Wl,-encryptable -undefined dynamic_lookup -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.sdk -target arm64-apple-ios -mios-version-min=13 /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/include/dart_api_dl.c.o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c.c.o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/input_stream_adapter.m.o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c.m.o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/observer.m.o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/ns_number.m.o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/protocol.m.o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/obj/src/objective_c_bindings_generated.m.o -o /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/objective_c.dylib
+
+INFO: 2026-04-14 18:26:50.972755: 
+INFO: 2026-04-14 18:26:50.972817: ld: warning: -undefined dynamic_lookup is deprecated on iOS
+
+INFO: 2026-04-14 18:26:50.972826: Generated /Users/shinsunbin/Documents/kiomi/.dart_tool/hooks_runner/shared/objective_c/build/63843f2ee8/objective_c.dylib
+

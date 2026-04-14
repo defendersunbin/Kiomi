@@ -8,7 +8,6 @@ import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart
 import '../models/set_menu_detector.dart';
 import '../models/scan_result.dart';
 import '../services/ocr_service.dart';
-import '../services/voice_guide_service.dart';
 import '../widgets/guide_overlay.dart';
 
 // 키오미 색상 (scan_screen 내에서도 동일 토큰 사용)
@@ -36,7 +35,6 @@ class ScanScreen extends StatefulWidget {
 class _ScanScreenState extends State<ScanScreen> {
   CameraController? _cameraController;
   final _ocrService = OcrService();
-  final _voiceGuide = VoiceGuideService();
 
   bool _isInitialized = false;
   bool _isProcessing = false;
@@ -45,8 +43,6 @@ class _ScanScreenState extends State<ScanScreen> {
   String _errorMessage = '';
 
   final ValueNotifier<List<ScanResult>?> _scanResultsNotifier = ValueNotifier(null);
-
-  bool _hasSpokenMatch = false;
   Offset? _focusPoint;
   Timer? _focusTimer;
 
@@ -57,9 +53,6 @@ class _ScanScreenState extends State<ScanScreen> {
   void initState() {
     super.initState();
     _initCamera();
-    _voiceGuide.init().then((_) {
-      _voiceGuide.speak('키오스크 화면을 비춰주세요. 자동으로 찾아드릴게요.');
-    });
   }
 
   Future<void> _initCamera() async {
@@ -112,13 +105,6 @@ class _ScanScreenState extends State<ScanScreen> {
 
       if (!mounted) return;
       _scanResultsNotifier.value = results;
-
-      final hasAnyMatch = results.any((r) => r.hasMatch);
-      if (hasAnyMatch && !_hasSpokenMatch) {
-        _hasSpokenMatch = true;
-        final matchedNames = results.where((r) => r.hasMatch).map((r) => r.userQuery).join(', ');
-        await _voiceGuide.speak('$matchedNames 을 찾았습니다. 표시된 곳을 눌러주세요.');
-      }
     } catch (e) {
       debugPrint('Stream Scan error: $e');
     } finally {
@@ -162,9 +148,7 @@ class _ScanScreenState extends State<ScanScreen> {
   void _togglePause() {
     setState(() {
       _isPaused = !_isPaused;
-      if (!_isPaused) _hasSpokenMatch = false;
     });
-    _voiceGuide.speak(_isPaused ? '스캔을 일시정지했어요.' : '다시 찾고 있어요.');
   }
 
   @override
@@ -173,7 +157,6 @@ class _ScanScreenState extends State<ScanScreen> {
     _scanResultsNotifier.dispose();
     _cameraController?.dispose();
     _ocrService.dispose();
-    _voiceGuide.dispose();
     super.dispose();
   }
 
