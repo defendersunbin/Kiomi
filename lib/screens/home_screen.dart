@@ -3,9 +3,9 @@ import 'package:speech_to_text/speech_to_text.dart' as stt;
 import '../models/set_menu_detector.dart';
 import './scan_screen.dart';
 
-// ── 키오미 디자인 토큰 ──
-class KiomiColors {
-  static const primary = Color(0xFF3D8FE0);       // 키오미 블루
+// ── 키도리 디자인 토큰 ──
+class KidoriColors {
+  static const primary = Color(0xFF3D8FE0);       // 키도리 블루
   static const primaryLight = Color(0xFFBDD9F5);  // 연한 블루
   static const primaryDark = Color(0xFF185FA5);   // 진한 블루
   static const accent = Color(0xFFF5A623);        // 골드 (플러스 배지)
@@ -127,7 +127,7 @@ class _HomeScreenState extends State<HomeScreen> {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text(message, style: const TextStyle(fontSize: 18)),
-        backgroundColor: KiomiColors.primaryDark,
+        backgroundColor: KidoriColors.primaryDark,
         behavior: SnackBarBehavior.floating,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
@@ -137,7 +137,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: KiomiColors.surface,
+      backgroundColor: KidoriColors.surface,
       body: SafeArea(
         child: SingleChildScrollView(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
@@ -172,16 +172,16 @@ class _HomeScreenState extends State<HomeScreen> {
                   onPressed: () {
                     showLicensePage(
                       context: context,
-                      applicationName: '키오미',
+                      applicationName: '키도리',
                       applicationVersion: '1.0.0',
-                      applicationLegalese: '© 2026 키오미. All rights reserved.',
+                      applicationLegalese: '© 2026 키도리. All rights reserved.',
                     );
                   },
                   child: const Text(
                     '오픈소스 라이선스',
                     style: TextStyle(
                       fontSize: 13,
-                      color: KiomiColors.textSecondary,
+                      color: KidoriColors.textSecondary,
                     ),
                   ),
                 ),
@@ -195,7 +195,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // ── 헤더: 키오미 로고 + 타이틀 ──
+  // ── 헤더: 키도리 로고 + 타이틀 ──
   Widget _buildHeader() {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
@@ -204,7 +204,7 @@ class _HomeScreenState extends State<HomeScreen> {
           width: 44,
           height: 44,
           decoration: BoxDecoration(
-            color: KiomiColors.primary,
+            color: KidoriColors.primary,
             borderRadius: BorderRadius.circular(12),
           ),
           child: Stack(
@@ -241,17 +241,17 @@ class _HomeScreenState extends State<HomeScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              '키오미',
+              '키도리',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
-                color: KiomiColors.primary,
+                color: KidoriColors.primary,
                 height: 1.1,
               ),
             ),
             const Text(
               '키오스크, 이제 쉬워요',
-              style: TextStyle(fontSize: 13, color: KiomiColors.textSecondary),
+              style: TextStyle(fontSize: 13, color: KidoriColors.textSecondary),
             ),
           ],
         ),
@@ -265,7 +265,7 @@ class _HomeScreenState extends State<HomeScreen> {
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: KiomiColors.primaryLight, width: 1),
+        border: Border.all(color: KidoriColors.primaryLight, width: 1),
       ),
       padding: const EdgeInsets.all(4),
       child: Row(
@@ -283,7 +283,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 duration: const Duration(milliseconds: 180),
                 padding: const EdgeInsets.symmetric(vertical: 14),
                 decoration: BoxDecoration(
-                  color: isSelected ? KiomiColors.primary : Colors.transparent,
+                  color: isSelected ? KidoriColors.primary : Colors.transparent,
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: FittedBox(
@@ -294,7 +294,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     style: TextStyle(
                       fontSize: 17,
                       fontWeight: isSelected ? FontWeight.bold : FontWeight.w500,
-                      color: isSelected ? Colors.white : KiomiColors.textSecondary,
+                      color: isSelected ? Colors.white : KidoriColors.textSecondary,
                     ),
                   ),
                 ),
@@ -312,7 +312,7 @@ class _HomeScreenState extends State<HomeScreen> {
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: KiomiColors.primaryLight, width: 1.5),
+        border: Border.all(color: KidoriColors.primaryLight, width: 1.5),
       ),
       padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
       child: Row(
@@ -321,10 +321,10 @@ class _HomeScreenState extends State<HomeScreen> {
             child: TextField(
               controller: _textController,
               onSubmitted: (_) => _addFromTextField(),
-              style: const TextStyle(fontSize: 20, color: KiomiColors.textPrimary),
+              style: const TextStyle(fontSize: 20, color: KidoriColors.textPrimary),
               decoration: InputDecoration(
                 hintText: '예: ${_getHintText()}',
-                hintStyle: const TextStyle(fontSize: 17, color: KiomiColors.textSecondary),
+                hintStyle: const TextStyle(fontSize: 17, color: KidoriColors.textSecondary),
                 border: InputBorder.none,
                 contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
               ),
@@ -334,7 +334,7 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: const EdgeInsets.only(right: 6),
             child: IconButton(
               onPressed: _addFromTextField,
-              icon: const Icon(Icons.add_circle_rounded, size: 34, color: KiomiColors.accent),
+              icon: const Icon(Icons.add_circle_rounded, size: 34, color: KidoriColors.accent),
             ),
           ),
         ],
@@ -356,8 +356,8 @@ class _HomeScreenState extends State<HomeScreen> {
             radius: 13,
             child: Text(_getTypeEmoji(type), style: const TextStyle(fontSize: 12)),
           ),
-          label: Text(kw, style: const TextStyle(fontSize: 17, color: KiomiColors.textPrimary)),
-          deleteIcon: const Icon(Icons.close_rounded, size: 18, color: KiomiColors.textSecondary),
+          label: Text(kw, style: const TextStyle(fontSize: 17, color: KidoriColors.textPrimary)),
+          deleteIcon: const Icon(Icons.close_rounded, size: 18, color: KidoriColors.textSecondary),
           onDeleted: () => _removeKeyword(kw),
           backgroundColor: typeColor.withOpacity(0.1),
           side: BorderSide(color: typeColor.withOpacity(0.3)),
@@ -386,7 +386,7 @@ class _HomeScreenState extends State<HomeScreen> {
             style: ElevatedButton.styleFrom(
               backgroundColor: _isListening
                   ? Colors.redAccent
-                  : KiomiColors.primaryDark,
+                  : KidoriColors.primaryDark,
               minimumSize: const Size(0, 62),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
               elevation: 0,
@@ -400,7 +400,7 @@ class _HomeScreenState extends State<HomeScreen> {
             icon: const Icon(Icons.camera_alt_rounded, size: 26, color: Colors.white),
             label: const Text('스캔 시작', style: TextStyle(fontSize: 18, color: Colors.white)),
             style: ElevatedButton.styleFrom(
-              backgroundColor: KiomiColors.accent,
+              backgroundColor: KidoriColors.accent,
               minimumSize: const Size(0, 62),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
               elevation: 0,
@@ -423,7 +423,7 @@ class _HomeScreenState extends State<HomeScreen> {
           decoration: BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: KiomiColors.primaryLight),
+            border: Border.all(color: KidoriColors.primaryLight),
           ),
           child: Column(
             children: [
@@ -451,7 +451,7 @@ class _HomeScreenState extends State<HomeScreen> {
             width: 30, height: 30,
             alignment: Alignment.center,
             decoration: const BoxDecoration(
-              color: KiomiColors.primary,
+              color: KidoriColors.primary,
               shape: BoxShape.circle,
             ),
             child: Text(number, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 15)),
@@ -463,15 +463,15 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget _buildDivider() => Divider(color: KiomiColors.primaryLight, height: 1);
+  Widget _buildDivider() => Divider(color: KidoriColors.primaryLight, height: 1);
 
   Widget _richText(String before, String bold, String after) {
     return RichText(
       text: TextSpan(
-        style: const TextStyle(fontSize: 18, color: KiomiColors.textPrimary, height: 1.5),
+        style: const TextStyle(fontSize: 18, color: KidoriColors.textPrimary, height: 1.5),
         children: [
           TextSpan(text: before),
-          TextSpan(text: bold, style: const TextStyle(fontWeight: FontWeight.bold, color: KiomiColors.accent)),
+          TextSpan(text: bold, style: const TextStyle(fontWeight: FontWeight.bold, color: KidoriColors.accent)),
           TextSpan(text: after),
         ],
       ),
@@ -479,14 +479,14 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _plainText(String text) {
-    return Text(text, style: const TextStyle(fontSize: 18, color: KiomiColors.textPrimary, height: 1.5));
+    return Text(text, style: const TextStyle(fontSize: 18, color: KidoriColors.textPrimary, height: 1.5));
   }
 
   // ── 빠른 선택 섹션 ──
   Widget _buildSectionTitle(String title) {
     return Text(
       title,
-      style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w700, color: KiomiColors.textPrimary),
+      style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w700, color: KidoriColors.textPrimary),
     );
   }
 
@@ -496,7 +496,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(title, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: KiomiColors.textSecondary)),
+          Text(title, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: KidoriColors.textSecondary)),
           const SizedBox(height: 10),
           Wrap(
             spacing: 10,
@@ -510,13 +510,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 labelStyle: TextStyle(
                   fontSize: 17,
                   fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
-                  color: isSelected ? Colors.white : KiomiColors.textPrimary,
+                  color: isSelected ? Colors.white : KidoriColors.textPrimary,
                 ),
-                selectedColor: KiomiColors.primary,
+                selectedColor: KidoriColors.primary,
                 checkmarkColor: Colors.white,
                 backgroundColor: Colors.white,
                 side: BorderSide(
-                  color: isSelected ? KiomiColors.primary : KiomiColors.primaryLight,
+                  color: isSelected ? KidoriColors.primary : KidoriColors.primaryLight,
                 ),
                 padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -541,7 +541,7 @@ class _HomeScreenState extends State<HomeScreen> {
     switch (type) {
       case MenuType.main: return Colors.red;
       case MenuType.side: return Colors.orange;
-      case MenuType.drink: return KiomiColors.primary;
+      case MenuType.drink: return KidoriColors.primary;
       case MenuType.dessert: return Colors.purple;
       case MenuType.document: return Colors.teal;
       case MenuType.ticket: return Colors.indigo;

@@ -10,12 +10,12 @@ import '../models/scan_result.dart';
 import '../services/ocr_service.dart';
 import '../widgets/guide_overlay.dart';
 
-// 키오미 색상 (scan_screen 내에서도 동일 토큰 사용)
+// 키도리 색상 (scan_screen 내에서도 동일 토큰 사용)
 const _kPrimary = Color(0xFF3D8FE0);
 const _kAccent = Color(0xFFF5A623);
 const _kPrimaryDark = Color(0xFF185FA5);
 
-/// 스캔 화면 — 실시간 카메라 + OCR 자동 스캔 (키오미 디자인 적용)
+/// 스캔 화면 — 실시간 카메라 + OCR 자동 스캔 (키도리 디자인 적용)
 class ScanScreen extends StatefulWidget {
   final List<String> searchKeywords;
   final OrderGroup orderGroup;
@@ -176,7 +176,7 @@ class _ScanScreenState extends State<ScanScreen> {
     );
   }
 
-  // ── 상단 바 (키오미 스타일) ──
+  // ── 상단 바 (키도리 스타일) ──
   Widget _buildTopBar() {
     return ValueListenableBuilder<List<ScanResult>?>(
       valueListenable: _scanResultsNotifier,
@@ -195,9 +195,9 @@ class _ScanScreenState extends State<ScanScreen> {
                     onPressed: () => Navigator.pop(context),
                     icon: const Icon(Icons.arrow_back_ios_new_rounded, color: Colors.white, size: 22),
                   ),
-                  // 키오미 로고 텍스트
+                  // 키도리 로고 텍스트
                   const Text(
-                    '키오미',
+                    '키도리',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 18,
@@ -357,7 +357,7 @@ class _ScanScreenState extends State<ScanScreen> {
                 child: Stack(
                   fit: StackFit.expand,
                   children: [
-                    // 포커스 표시 (키오미 블루 테두리)
+                    // 포커스 표시 (키도리 블루 테두리)
                     if (_focusPoint != null)
                       Positioned(
                         left: _focusPoint!.dx - 32,
@@ -385,7 +385,7 @@ class _ScanScreenState extends State<ScanScreen> {
                                 scanResults: scanResults,
                                 previewSize: previewSize,
                               ),
-                            // 가이드 프레임 (매칭 없을 때) — 키오미 블루 테두리
+                            // 가이드 프레임 (매칭 없을 때) — 키도리 블루 테두리
                             if (!hasAnyMatch)
                               Center(
                                 child: Container(

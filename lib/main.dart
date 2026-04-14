@@ -5,21 +5,21 @@ import './screens/home_screen.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
-  runApp(const KiomiApp());
+  runApp(const KidoriApp());
 }
 
-class KiomiApp extends StatelessWidget {
-  const KiomiApp({super.key});
+class KidoriApp extends StatelessWidget {
+  const KidoriApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '키오미',
+      title: '키도리',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF3D8FE0), // 키오미 블루
+          seedColor: const Color(0xFF3D8FE0), // 키도리 블루
           brightness: Brightness.light,
         ),
         textTheme: const TextTheme(
