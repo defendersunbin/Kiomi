@@ -1,6 +1,6 @@
 # 🤖 키오미 (KIOMI)
 
-### Kiosk is not hard anymore — 키오스크, 이제 쉬워요
+### 키오스크, 이제 쉬워요
 
 <img width="1932" height="828" alt="kiomi_키오미_썸네일_thumbnail" src="https://github.com/user-attachments/assets/c7e5d124-e29d-4f78-a199-ec32bb2b6ac8" />
 
