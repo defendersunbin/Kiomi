@@ -57,7 +57,7 @@
 영화관 키오스크에서 사용하는 키워드를 빠르게 선택할 수 있습니다. 티켓 구매, 현장 발권, 스낵/음료 주문, 좌석 선택, 할인/포인트, 결제까지 전 과정을 지원합니다.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/df9c6e93-f33e-4076-9d79-a910259ecf0f" alt="home_screen" width="250"/>
+  <img src="https://github.com/user-attachments/assets/e6dd98b6-1d76-40c5-9062-b48440c8da45" alt="home_screen" width="250"/>
 </p>
 
 ### 실제 스캔 화면
