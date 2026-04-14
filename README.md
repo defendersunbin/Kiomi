@@ -1,8 +1,8 @@
-# 🤖 키오미 (KIOMI)
+# 키오미 (KIOMI)
 
-### Kiosk is not hard anymore — 키오스크, 이제 쉬워요
+### 키오스크, 이제 쉬워요
 
-![KIOMI Thumbnail](screenshots/kiomi_키오미_썸네일_thumbnail.png)
+<img width="1932" height="828" alt="kiomi_키오미_썸네일_thumbnail" src="https://github.com/user-attachments/assets/c7e5d124-e29d-4f78-a199-ec32bb2b6ac8" />
 
 ---
 
@@ -12,7 +12,7 @@
 
 카메라로 키오스크 화면을 비추면, OCR(광학 문자 인식) 기술로 화면을 자동 분석하여 원하는 버튼의 위치를 **색상 강조 오버레이**로 안내해 드립니다. 음성 입력과 음성 안내까지 지원하여 누구나 쉽고 빠르게 키오스크를 이용할 수 있습니다.
 
-> 음식점 · 동사무소 · 영화관 — 어디서나 쉽게
+> 음식점 · 동사무소 · 영화관 등 — 키오스크를 사용하는 장소 어디서나 쉽게
 
 ---
 
@@ -21,53 +21,15 @@
 - 🔍 **실시간 OCR 스캔** — 카메라로 키오스크 화면을 비추면 텍스트를 자동 인식
 - 🎯 **키워드 색상 강조** — 찾고 싶은 버튼을 컬러 오버레이로 즉시 표시
 - 🎙️ **음성 입력 (말하기)** — 찾을 항목을 말로 입력할 수 있어요
-- 🔊 **음성 안내** — 각 단계를 음성으로 안내
 - 📋 **빠른 선택** — 장소 유형별로 자주 쓰는 키워드를 미리 제공
 - 🏪 **다양한 장소 지원** — 음식점, 동사무소, 영화관 등 상황별 맞춤 키워드
 
 ---
 
-## 📱 스크린샷
+### 🚨 필요 권한
 
-### 홈 화면
-
-사용 방법을 한눈에 확인할 수 있는 홈 화면입니다. 찾을 단어를 직접 입력하거나 음성으로 말한 후, 스캔을 시작하면 됩니다.
-
-<p align="center">
-  <img src="screenshots/home_screen.jpg" alt="홈 화면" width="300"/>
-</p>
-
-### 음식점 모드
-
-패스트푸드, 카페 등 음식점 키오스크에서 자주 사용하는 키워드를 빠르게 선택할 수 있습니다. 빅맥, 감자튀김, 콜라 등 메뉴부터 매장/포장, 세트/단품, 카드결제까지 한번에 지원합니다.
-
-<p align="center">
-  <img src="screenshots/home_screen_food.jpg" alt="음식점 모드" width="300"/>
-</p>
-
-### 동사무소 모드
-
-주민센터(동사무소) 무인 발급기에서 필요한 키워드를 제공합니다. 주민등록등본, 가족관계증명서, 인감증명서 등 각종 증명서 발급과 복지카드, 전입신고 등의 업무를 지원합니다.
-
-<p align="center">
-  <img src="screenshots/home_screen_gov.jpg" alt="동사무소 모드" width="300"/>
-</p>
-
-### 영화관 모드
-
-영화관 키오스크에서 사용하는 키워드를 빠르게 선택할 수 있습니다. 티켓 구매, 현장 발권, 스낵/음료 주문, 좌석 선택, 할인/포인트, 결제까지 전 과정을 지원합니다.
-
-<p align="center">
-  <img src="screenshots/home_screen_movie.jpg" alt="영화관 모드" width="300"/>
-</p>
-
-### 실제 스캔 화면
-
-실제 매장 키오스크에 카메라를 비춘 모습입니다. 선택한 키워드("매장")가 화면에서 자동으로 인식되어 **색상 강조 오버레이**로 위치를 안내합니다. 찾는 항목이 발견되면 상단에 "발견!" 배지가 표시됩니다.
-
-<p align="center">
-  <img src="screenshots/kiomi_scan.png" alt="실제 스캔 화면" width="300"/>
-</p>
+- 카메라
+- 마이크
 
 ---
 
@@ -82,67 +44,48 @@
 
 ---
 
-## 🏗️ 기술 스택
+### 🏠 홈 화면
 
-| 구분 | 기술 |
-|------|------|
-| **Framework** | Flutter (Dart) |
-| **OCR Engine** | ML Kit (Android) / Apple Vision (iOS) |
-| **음성 인식** | Speech-to-Text |
-| **음성 안내** | Text-to-Speech |
-| **상태 관리** | ValueNotifier |
-| **플랫폼 연동** | MethodChannel (Native Bridge) |
+사용 방법을 한눈에 확인할 수 있는 홈 화면입니다. 찾을 단어를 직접 입력하거나 음성으로 말한 후, 스캔을 시작하면 됩니다.
 
----
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ae9e34ca-375f-47f4-9da9-652204635824" alt="home_screen" width="250"/>
+</p>
 
-## 📂 프로젝트 구조
+### 👨‍🍳 음식점 모드
 
-```
-kiomi/
-├── lib/
-│   ├── main.dart
-│   ├── screens/          # 화면 (홈, 스캔 등)
-│   ├── widgets/          # 재사용 위젯
-│   ├── services/         # OCR, TTS, STT 서비스
-│   ├── models/           # 데이터 모델
-│   └── utils/            # 유틸리티
-├── android/              # Android 네이티브 (ML Kit)
-├── ios/                  # iOS 네이티브 (Apple Vision)
-├── assets/               # 아이콘, 폰트 등
-└── screenshots/          # 스크린샷 이미지
-```
+패스트푸드, 카페 등 음식점 키오스크에서 자주 사용하는 키워드를 빠르게 선택할 수 있습니다. 빅맥, 감자튀김, 콜라 등 메뉴부터 매장/포장, 세트/단품, 카드결제까지 한번에 지원합니다.
 
----
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1cffb2b8-0ea9-406b-a52e-555c9324f4c0" alt="home_screen" width="250"/>
+</p>
 
-## 📥 설치
+### 🏢 동사무소 모드
 
-### 요구사항
+주민센터(동사무소) 무인 발급기에서 필요한 키워드를 제공합니다. 주민등록등본, 가족관계증명서, 인감증명서 등 각종 증명서 발급과 복지카드, 전입신고 등의 업무를 지원합니다.
 
-- Flutter 3.x 이상
-- Android SDK 21+ / iOS 13+
-- 카메라 권한 필요
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/df9c6e93-f33e-4076-9d79-a910259ecf0f" alt="home_screen" width="250"/>
+</p>
 
-### 빌드
+### 🍿 영화관 모드
 
-```bash
-# 의존성 설치
-flutter pub get
+영화관 키오스크에서 사용하는 키워드를 빠르게 선택할 수 있습니다. 티켓 구매, 현장 발권, 스낵/음료 주문, 좌석 선택, 할인/포인트, 결제까지 전 과정을 지원합니다.
 
-# Android 빌드
-flutter build apk --release
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e6dd98b6-1d76-40c5-9062-b48440c8da45" alt="home_screen" width="250"/>
+</p>
 
-# iOS 빌드
-flutter build ios --release
-```
+### 스캔 화면
 
----
+실제 매장 키오스크에 카메라를 비춘 모습입니다. 선택한 키워드가 화면에서 자동으로 인식되어 **색상 강조 오버레이**로 위치를 안내합니다. 찾는 항목이 발견되면 상단에 '발견!' 배지가 초록색으로 표시됩니다.
 
-## 📄 라이선스
-
-This project is licensed under the MIT License.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cbdf5bd9-f41d-486a-b5e4-4ae839499aea" alt="home_screen" width="250"/>
+</p>
 
 ---
 
 <p align="center">
-  <b>키오미</b>와 함께라면, 키오스크가 어렵지 않아요 😊
+  <b>키오미</b>와 함께라면, 키오스크 어렵지 않아요 😊
 </p>
