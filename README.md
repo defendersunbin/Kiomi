@@ -32,31 +32,41 @@
 
 사용 방법을 한눈에 확인할 수 있는 홈 화면입니다. 찾을 단어를 직접 입력하거나 음성으로 말한 후, 스캔을 시작하면 됩니다.
 
-![home_screen](https://github.com/user-attachments/assets/ae9e34ca-375f-47f4-9da9-652204635824)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ae9e34ca-375f-47f4-9da9-652204635824" alt="home_screen" width="250"/>
+</p>
 
 ### 음식점 모드
 
 패스트푸드, 카페 등 음식점 키오스크에서 자주 사용하는 키워드를 빠르게 선택할 수 있습니다. 빅맥, 감자튀김, 콜라 등 메뉴부터 매장/포장, 세트/단품, 카드결제까지 한번에 지원합니다.
 
-![home_screen_food](https://github.com/user-attachments/assets/1cffb2b8-0ea9-406b-a52e-555c9324f4c0)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1cffb2b8-0ea9-406b-a52e-555c9324f4c0" alt="home_screen" width="250"/>
+</p>
 
 ### 동사무소 모드
 
 주민센터(동사무소) 무인 발급기에서 필요한 키워드를 제공합니다. 주민등록등본, 가족관계증명서, 인감증명서 등 각종 증명서 발급과 복지카드, 전입신고 등의 업무를 지원합니다.
 
-![home_screen_gov](https://github.com/user-attachments/assets/df9c6e93-f33e-4076-9d79-a910259ecf0f)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/df9c6e93-f33e-4076-9d79-a910259ecf0f" alt="home_screen" width="250"/>
+</p>
 
 ### 영화관 모드
 
 영화관 키오스크에서 사용하는 키워드를 빠르게 선택할 수 있습니다. 티켓 구매, 현장 발권, 스낵/음료 주문, 좌석 선택, 할인/포인트, 결제까지 전 과정을 지원합니다.
 
-![home_screen_movie](https://github.com/user-attachments/assets/53a36250-03a7-4b95-9acf-66a779d406e3)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/df9c6e93-f33e-4076-9d79-a910259ecf0f" alt="home_screen" width="250"/>
+</p>
 
 ### 실제 스캔 화면
 
 실제 매장 키오스크에 카메라를 비춘 모습입니다. 선택한 키워드가 화면에서 자동으로 인식되어 **색상 강조 오버레이**로 위치를 안내합니다. 찾는 항목이 발견되면 상단에 '발견!' 배지가 초록색으로 표시됩니다.
 
-<img width="645" height="1331" alt="kiomi_scan" src="https://github.com/user-attachments/assets/cbdf5bd9-f41d-486a-b5e4-4ae839499aea" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cbdf5bd9-f41d-486a-b5e4-4ae839499aea" alt="home_screen" width="250"/>
+</p>
 
 ---
 
