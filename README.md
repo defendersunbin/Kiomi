@@ -81,7 +81,7 @@
 실제 매장 키오스크에 카메라를 비춘 모습입니다. 선택한 키워드가 화면에서 자동으로 인식되어 **색상 강조 오버레이**로 위치를 안내합니다. 찾는 항목이 발견되면 상단에 '발견!' 배지가 초록색으로 표시됩니다.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cbdf5bd9-f41d-486a-b5e4-4ae839499aea" alt="home_screen" width="250"/>
+  <img src="https://github.com/user-attachments/assets/a3543f2b-6883-4728-9289-50173b69f196" alt="home_screen" width="250"/>
 </p>
 
 ---
