@@ -94,51 +94,10 @@
 
 ---
 
-## 📂 프로젝트 구조
-
-```
-kiomi/
-├── lib/
-│   ├── main.dart
-│   ├── screens/          # 화면 (홈, 스캔 등)
-│   ├── widgets/          # 재사용 위젯
-│   ├── services/         # OCR, TTS, STT 서비스
-│   ├── models/           # 데이터 모델
-│   └── utils/            # 유틸리티
-├── android/              # Android 네이티브 (ML Kit)
-├── ios/                  # iOS 네이티브 (Apple Vision)
-├── assets/               # 아이콘, 폰트 등
-└── screenshots/          # 스크린샷 이미지
-```
-
----
-
-## 📥 설치
-
 ### 요구사항
 
-- Flutter 3.x 이상
-- Android SDK 21+ / iOS 13+
 - 카메라 권한 필요
-
-### 빌드
-
-```bash
-# 의존성 설치
-flutter pub get
-
-# Android 빌드
-flutter build apk --release
-
-# iOS 빌드
-flutter build ios --release
-```
-
----
-
-## 📄 라이선스
-
-This project is licensed under the MIT License.
+- 마이크 권한 필요
 
 ---
 
