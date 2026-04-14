@@ -1,0 +1,62 @@
+**Privacy Policy**
+
+Last updated: 2026-04-14
+
+This privacy policy applies to the Kiomi (키오미) app (hereby referred to as "Application") for mobile devices that was created by defend98 (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+
+**Overview**
+
+Kiomi is a kiosk assistance app that uses your device's camera to scan kiosk screens in real-time and helps you find the buttons you need. The Application processes all data locally on your device and does not transmit any personal data to external servers.
+
+**Information Collection and Use**
+
+The Application does **not** collect, store, or transmit any personal information. Specifically:
+
+*   No user accounts or login are required.
+*   No personal data (name, email, phone number, etc.) is collected within the Application.
+*   No usage analytics, IP addresses, or device identifiers are collected.
+*   No data is sent to or stored on any external servers.
+
+All processing, including text recognition and keyword matching, is performed entirely on your device and discarded from memory when the Application is closed.
+
+**Device Permissions**
+
+The Application requires the following device permissions to function:
+
+*   **Camera**: Used to scan kiosk screens in real-time for text recognition (OCR). Camera frames are processed locally on your device using on-device machine learning and are never stored, recorded, or transmitted.
+*   **Microphone**: Used for the voice input ("말하기") feature, which allows you to speak the keywords you want to find. Voice data is processed locally on your device using the system's built-in speech-to-text engine and is not recorded or transmitted.
+
+**On-Device Machine Learning**
+
+The Application uses **Google ML Kit Text Recognition** to perform optical character recognition (OCR) on camera frames. This processing occurs entirely on your device. No images or recognized text are sent to Google or any third-party servers. For more information about ML Kit's data handling, please refer to [Google ML Kit Terms](https://developers.google.com/ml-kit/terms).
+
+**Third Party Services**
+
+The Application utilizes the following third-party services:
+
+*   [Google Play Services](https://www.google.com/policies/privacy/) — Required for app distribution
+*   [Google ML Kit](https://developers.google.com/ml-kit/terms) — On-device text recognition engine. All processing is performed locally.
+
+**Data Retention**
+
+Since the Application does not collect or store any user data, there is no data retention. All information processed during a session (camera frames, recognized text, keywords) exists only in temporary memory and is discarded when the Application is closed or the scanning session ends.
+
+**Children**
+
+The Application does not collect any personal information from any user, including children under the age of 13. The Application is designed to be accessible to users of all ages and contains no age-restricted content.
+
+**Security**
+
+Because the Application does not collect, store, or transmit personal data, there is minimal risk of data exposure. All processing is performed locally on your device, ensuring your information remains private.
+
+**Changes**
+
+This Privacy Policy may be updated from time to time. The Service Provider will notify you of any changes by updating this page with the new Privacy Policy and revising the "Last updated" date above. You are advised to review this Privacy Policy periodically for any changes.
+
+**Your Consent**
+
+By using the Application, you are consenting to the processing of information as set forth in this Privacy Policy.
+
+**Contact Us**
+
+If you have any questions regarding this Privacy Policy or the Application's privacy practices, please contact the Service Provider via email at defendersunbin98@naver.com.
