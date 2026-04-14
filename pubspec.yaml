@@ -1,7 +1,7 @@
 name: kiosk_helper
 description: "키오스크 도우미 — 어르신을 위한 실시간 키오스크 사용 가이드 앱"
 publish_to: "none"
-version: 1.0.0+1
+version: 1.1.0
 
 environment:
   sdk: ">=3.2.0 <4.0.0"
