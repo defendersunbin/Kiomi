@@ -79,16 +79,6 @@
 | **3** | '스캔 시작'을 눌러요 |
 | **4** | 키오스크 화면을 비추면 자동으로 찾아드려요 |
 
----
-
-## 🏗️ 기술 스택
-
-| 구분 | 기술 |
-|------|------|
-| **Framework** | Flutter (Dart) |
-| **OCR Engine** | ML Kit (Android) / Apple Vision (iOS) |
-| **음성 인식** | Speech-to-Text |
-| **음성 안내** | Text-to-Speech |
 
 ---
 
