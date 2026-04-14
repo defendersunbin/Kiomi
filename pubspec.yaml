@@ -1,0 +1,33 @@
+name: kiosk_helper
+description: "키오스크 도우미 — 어르신을 위한 실시간 키오스크 사용 가이드 앱"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0+2
+  path_provider: ^2.1.4
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.0.0
+  permission_handler: ^11.3.1
+  google_mlkit_text_recognition: ^0.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/kiomi_icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
