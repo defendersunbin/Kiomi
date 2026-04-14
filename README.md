@@ -79,8 +79,6 @@
 | **OCR Engine** | ML Kit (Android) / Apple Vision (iOS) |
 | **음성 인식** | Speech-to-Text |
 | **음성 안내** | Text-to-Speech |
-| **상태 관리** | ValueNotifier |
-| **플랫폼 연동** | MethodChannel (Native Bridge) |
 
 ---
 
