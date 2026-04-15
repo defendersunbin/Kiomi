@@ -49,23 +49,25 @@
 사용 방법을 한눈에 확인할 수 있는 홈 화면입니다. 찾을 단어를 직접 입력하거나 음성으로 말한 후, 스캔을 시작하면 됩니다.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ae9e34ca-375f-47f4-9da9-652204635824" alt="home_screen" width="250"/>
+  <img src="https://github.com/user-attachments/assets/dc9730b1-e3e9-4e89-a995-a542ab60ef9d" alt="home_screen" width="250"/>
 </p>
+
 
 ### 👨‍🍳 음식점 모드
 
 패스트푸드, 카페 등 음식점 키오스크에서 자주 사용하는 키워드를 빠르게 선택할 수 있습니다. 빅맥, 감자튀김, 콜라 등 메뉴부터 매장/포장, 세트/단품, 결제 방식을 키워드에 추가해 빠르게 찾아보세요.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1cffb2b8-0ea9-406b-a52e-555c9324f4c0" alt="home_screen" width="250"/>
+  <img src="https://github.com/user-attachments/assets/44cdd20c-6be9-4257-9daf-27b1cfe14efc" alt="home_screen" width="250"/>
 </p>
+
 
 ### 🏢 동사무소 모드
 
 주민센터(동사무소) 무인 발급기에서 필요한 키워드를 제공합니다. 주민등록등본, 가족관계증명서, 인감증명서 등 각종 증명서 발급과 복지카드, 전입신고 등을 키워드에 추가해 빠르게 찾아보세요.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/df9c6e93-f33e-4076-9d79-a910259ecf0f" alt="home_screen" width="250"/>
+  <img src="https://github.com/user-attachments/assets/116411bb-95c0-404a-938f-72fabc40fb63" alt="home_screen" width="250"/>
 </p>
 
 ### 🍿 영화관 모드
@@ -73,7 +75,7 @@
 영화관 키오스크에서 사용하는 키워드를 빠르게 선택할 수 있습니다. 티켓 구매, 현장 발권, 스낵/음료 주문, 좌석 선택, 할인/포인트, 결제까지 전 과정을 키워드에 추가해 빠르게 찾아보세요.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e6dd98b6-1d76-40c5-9062-b48440c8da45" alt="home_screen" width="250"/>
+  <img src="https://github.com/user-attachments/assets/0dd549d6-9fd7-4ead-87e0-7ae0b2150eee" alt="home_screen" width="250"/>
 </p>
 
 ### 스캔 화면
@@ -81,7 +83,7 @@
 실제 매장 키오스크에 카메라를 비춘 모습입니다. 선택한 키워드가 화면에서 자동으로 인식되어 **색상 강조 오버레이**로 위치를 안내합니다. 찾는 항목이 발견되면 상단에 '발견!' 배지가 초록색으로 표시됩니다.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a3543f2b-6883-4728-9289-50173b69f196" alt="home_screen" width="250"/>
+  <img src="https://github.com/user-attachments/assets/ad8f582b-6c2f-440a-bb1f-86b39c5ce0d8" alt="home_screen" width="250"/>
 </p>
 
 ---
