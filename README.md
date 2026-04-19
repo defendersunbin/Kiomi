@@ -2,7 +2,7 @@
 
 ### 키오스크, 이제 쉬워요
 
-<img width="2752" height="1536" alt="graphic_image" src="https://github.com/user-attachments/assets/0a41acc5-c619-4662-90b6-9ff45749327f" />
+<img width="1591" height="988" alt="kidori_graphics_candidate1" src="https://github.com/user-attachments/assets/e27aee8c-d38e-442c-b460-5f6c7c6ddc43" />
 
 ---
 
